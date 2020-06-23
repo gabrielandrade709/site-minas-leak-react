@@ -1,5 +1,6 @@
 :root {
-  --title-color: #212529;
+  --title-color: #d6dee2;
+  --primary-color: white;
 }
 
 * {
@@ -8,9 +9,17 @@
   box-sizing:  border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  background: #DFE0E4;
-  -webkit-font-smoothing: antialiased;
+  background: -webkit-linear-gradient(#434343, #000000 500%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#434343, #000000 500%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 cody, input, button {

@@ -4,15 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from '../../components/Header/index';
 
-const Home = () => {
+const Contato = () => {
     return (
         <>
            <Header />
            <div>
-               <h1>Hello World - Inicio</h1>
+               <h1>Hello World - Contato</h1>
            </div>
         </>
     );
 }
 
-export default Home;
+export default Contato;
