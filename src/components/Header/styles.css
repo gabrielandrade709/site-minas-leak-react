@@ -9,6 +9,10 @@
     text-shadow: 0px 6px 12px #000;
 }
 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+ }
+
 .navBottons {
     color: white !important;
 }
@@ -44,16 +48,13 @@
     color: white;
 }
 
-
-
-
 .navColor{
     background: transparent;
 }
 
 .focus-in-expand {
-	-webkit-animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
  @-webkit-keyframes focus-in-expand {

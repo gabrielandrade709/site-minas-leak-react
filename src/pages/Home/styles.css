@@ -9,15 +9,27 @@
     margin-top: 50px;
 }
 
+.bem-vindo p{
+  color: #D9D9D9;
+  font-weight: 400;
+}
+
+.localizacao{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.localizacao p{
+  color: #D9D9D9;
+  font-weight: 400;
+}
+
 .d-flex div{
     padding: 1rem;
     text-align: center;
   }
 
-.bem-vindo p{
-    color: #D9D9D9;
-    font-weight: 400;
-}
 
 .whatsappIcon{
     color: #57CF6F;
@@ -28,7 +40,14 @@
 
 .card{
     background-color: transparent !important;
+    border: none !important;
     width: 1000px;
+    border-radius: 25px !important;
+
+}
+
+.bg-dark{
+  box-shadow: 0 2px 10px 0 rgb(0, 0, 0);
 }
 
 .centeredCards{
@@ -41,7 +60,7 @@
 }
 
 .cardLeft{
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .center{
@@ -67,7 +86,6 @@
     width: 100px;
     height: 30px;
   }
-
 
 .saibaMais:hover {
     background: linear-gradient(#434343, #000000 1000%);
@@ -120,5 +138,6 @@
       opacity: 1;
     }
   }
+
 
   

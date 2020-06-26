@@ -2,12 +2,11 @@ import React from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import './styles.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
     return (
         <>
-            <nav >
+            <nav>
                 <Navbar className="navColor focus-in-expand" sticky="top" >
                         <Nav className="center">
                         <Nav.Link className="navBottons"><Link to="/"><a>Inicio</a></Link></Nav.Link>
