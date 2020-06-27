@@ -1,15 +1,17 @@
 import React from 'react';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { WhatsApp } from '@material-ui/icons';
+
 import { Divider } from '@material-ui/core';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header/index';
+import Logo from '../../components/Logo/index'
 import Location from '../../components/Location/index';
+import WhatsappButton from '../../components/WhatsappButton/index';
+import Footer from '../../components/Footer/index';
 
-import Logo from '../../assets/logotipo.png';
 import BombeiroHidrualico from '../../assets/bombeiroHidraulicoCard.jpg';
 import CacaVazamento from '../../assets/cacaVazamentoCard.jpg';
 import VideoInspecao from '../../assets/videoInspecaoCard.jpg';
@@ -22,12 +24,7 @@ const Home = () => {
                 <Header />
                 <div id="page-home" className="container-fluid">
                     <div className="content">
-                        <div className="logo focus-in-expand">
-                            <img src={Logo} />
-                        </div>
-                        <div className="center focus-in-expand">
-                                <p className="ligar"><a  className="ligar" href="tel:{+55-31-3312-1335}">(31) 3312-1335</a> | <a className="ligar" href="tel:+55-31-99195-8081">(31) 99195-8081</a><WhatsApp className="whatsappIcon" /></p>
-                        </div>
+                        <Logo />
                         <Divider />
                             <div className="bem-vindo focus-in-expand">
                                 <h2>Bem vindo a Minas Leak</h2>
@@ -90,11 +87,12 @@ const Home = () => {
                             <Divider />
                             <div className="localizacao focus-in-expand">
                                 <h2>Nossa localização</h2>
-                                <p>Logo abaixo se encontra a nossa localização.</p>
                             </div>
                             <Location />
                             <br />
                             <Divider />
+                            <WhatsappButton />
+                            <Footer />
                     </div>
                 </div>
             </div>
