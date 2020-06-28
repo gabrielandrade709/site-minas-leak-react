@@ -12,6 +12,8 @@ import Location from '../../components/Location/index';
 import WhatsappButton from '../../components/WhatsappButton/index';
 import Footer from '../../components/Footer/index';
 
+import HeaderMobile from '../../components/HeaderMobile/index';
+
 import BombeiroHidrualico from '../../assets/bombeiroHidraulicoCard.jpg';
 import CacaVazamento from '../../assets/cacaVazamentoCard.jpg';
 import VideoInspecao from '../../assets/videoInspecaoCard.jpg';
@@ -20,7 +22,10 @@ import Desentupimento from '../../assets/desentupimentoCard.jpg';
 const Home = () => {
     return (
         <>
-            <div className="main">
+            <div className="main-mobile">
+                <HeaderMobile />
+            </div>
+            <div className="main-desktop">
                 <Header />
                 <div id="page-home" className="container-fluid">
                     <div className="content">

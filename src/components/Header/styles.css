@@ -5,7 +5,7 @@
 .title{
     font-weight: bold;
     font-size: 18px;
-    color: white;
+    color: white !important;
     text-shadow: 0px 6px 12px #000;
 }
 

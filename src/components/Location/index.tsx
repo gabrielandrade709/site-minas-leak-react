@@ -7,7 +7,7 @@ const Location = () => {
     return (
         <Box borderColor="error.main">
         <div className="map">
-            <Map center={[-19.9358739979037, -43.97239208221436]} zoom={17} className="focus-in-expand" minZoom={12} maxZoom={14}>
+            <Map center={[-19.9358739979037, -43.97239208221436]} zoom={17} className="focus-in-expand" minZoom={12}>
                 <Marker position={[-19.9358739979037, -43.97239208221436]}></Marker>
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
