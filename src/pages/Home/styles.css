@@ -9,6 +9,10 @@
 
 }
 
+.logo-mobile{
+  margin-top: 50px;
+}
+
 .logo{
     display: flex;
     justify-content: center;

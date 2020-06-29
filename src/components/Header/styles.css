@@ -48,8 +48,12 @@
     color: white;
 }
 
-.navColor{
-    background: transparent;
+.navBottons {
+  background: transparent !important;
+}
+
+.navColorDesktop{
+    background: transparent !important;
 }
 
 .focus-in-expand {

@@ -14,6 +14,8 @@ import WhatsappButton from '../../components/WhatsappButton/index';
 import Footer from '../../components/Footer/index';
 
 import HeaderMobile from '../../components/HeaderMobile/index';
+import LogoMobile from '../../components/LogoMobile/index';
+import FooterMobile from '../../components/FooderMobile/index';
 
 import BombeiroHidrualico from '../../assets/bombeiroHidraulicoCard.jpg';
 import CacaVazamento from '../../assets/cacaVazamentoCard.jpg';
@@ -27,6 +29,88 @@ const Home = () => {
         <>
             <div className="main-mobile">
                 <HeaderMobile />
+                <div className="container">
+                    <div className="logo-mobile">
+                        <LogoMobile />
+                    </div>
+                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                        <Divider />
+                    </div>
+                    <div className="bem-vindo focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                        <h2>Bem vindo a Minas Leak</h2>
+                        <p>Logo abaixo você vera os nossos serviços.</p>
+                    </div>
+                    <div className="d-flex cardTop row focus-in-expand">
+                        <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
+                            <Card.Img variant="top" src={BombeiroHidrualico} />
+                            <Card.Body>
+                                <Card.Title>Bombeiro hidráulico</Card.Title>
+                                <Card.Text>
+                                    Contrate um profissional para resolver problemas hidráulicos em sua casa.
+                                </Card.Text>
+                                <button className="saibaMais"><Link to="/bombeiro-hidrualico">Saiba mais</Link></button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+
+                    <div className="d-flex cardTop row focus-in-expand">
+                        <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
+                            <Card.Img variant="top" src={CacaVazamento} />
+                            <Card.Body>
+                                <Card.Title>Caça vazamento</Card.Title>
+                                <Card.Text>
+                                    Esta com algum vazamento e não sabe de onde vem? Nos contrate e iremos achá-lo para você!
+                                </Card.Text>
+                                <button className="saibaMais"><Link to="/caca-vazamento">Saiba mais</Link></button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    
+                    <div className="d-flex cardTop row focus-in-expand">
+                        <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
+                            <Card.Img variant="top" src={VideoInspecao} />
+                            <Card.Body>
+                                <Card.Title>Vídeo inspeção</Card.Title>
+                                <Card.Text>
+                                    Se precisa fazer uma filmagem em alguma rede para inspecioná-la, nos 
+                                    contrate e faremos para você! 
+                                </Card.Text>
+                                <button className="saibaMais"><Link to="/video-inspecao">Saiba mais</Link></button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+
+                    <div className="d-flex cardTop row focus-in-expand">
+                        <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
+                            <Card.Img variant="top" src={Desentupimento} />
+                            <Card.Body>
+                                <Card.Title>Desentupimento</Card.Title>
+                                <Card.Text>
+                                    Esta com um problema de entupimento e não sabe como resolver? Nos contrate e resolveremos
+                                    esse problema!
+                                </Card.Text>
+                                <button className="saibaMais"><Link to="/desentupimento">Saiba mais</Link></button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                        <Divider />
+                    </div>
+                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                                <h2>Nossa localização</h2>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="3000">
+                                <Location/>
+                            </div>
+                            <br />
+                            <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                                <Divider />
+                            </div>
+                            <WhatsappButton />
+                            <div data-aos="fade-up" data-aos-duration="3000">
+                                <FooterMobile />
+                            </div>
+                </div>
             </div>
             <div className="main-desktop">
                 <Header />
@@ -35,7 +119,9 @@ const Home = () => {
                         <div data-aos="fade-up" data-aos-duration="3000">
                             <Logo/>
                         </div>
-                        <Divider />
+                        <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                            <Divider />
+                        </div>
                             <div className="bem-vindo focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
                                 <h2>Bem vindo a Minas Leak</h2>
                                 <p>Logo abaixo você vera os nossos serviços.</p>
@@ -94,7 +180,9 @@ const Home = () => {
                                 </div>
                             </div>
                             <br />
-                            <Divider />
+                            <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                                <Divider />
+                            </div>
                             <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
                                 <h2>Nossa localização</h2>
                             </div>
@@ -102,7 +190,9 @@ const Home = () => {
                                 <Location/>
                             </div>
                             <br />
-                            <Divider />
+                            <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                                <Divider />
+                            </div>
                             <WhatsappButton />
                             <div data-aos="fade-up" data-aos-duration="3000">
                                 <Footer />

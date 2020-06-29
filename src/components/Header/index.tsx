@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
             <nav>
-                <Navbar className="navColor focus-in-expand" sticky="top" >
+                <Navbar className="navColorDesktop focus-in-expand" sticky="top" >
                         <Nav className="center">
                         <Nav.Link className="navBottons"><Link to="/"><a>Inicio</a></Link></Nav.Link>
                         <NavDropdown title={
