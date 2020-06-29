@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AOS from 'aos';
 
 import { Divider } from '@material-ui/core';
 import { Card } from 'react-bootstrap';
@@ -19,6 +20,8 @@ import CacaVazamento from '../../assets/cacaVazamentoCard.jpg';
 import VideoInspecao from '../../assets/videoInspecaoCard.jpg';
 import Desentupimento from '../../assets/desentupimentoCard.jpg';
 
+AOS.init();
+
 const Home = () => {
     return (
         <>
@@ -29,16 +32,18 @@ const Home = () => {
                 <Header />
                 <div id="page-home" className="container-fluid">
                     <div className="content">
-                        <Logo />
+                        <div data-aos="fade-up" data-aos-duration="3000">
+                            <Logo/>
+                        </div>
                         <Divider />
-                            <div className="bem-vindo focus-in-expand">
+                            <div className="bem-vindo focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
                                 <h2>Bem vindo a Minas Leak</h2>
                                 <p>Logo abaixo você vera os nossos serviços.</p>
                             </div>
                             <div className="centeredCards">
                                 <div className="card focus-in-expand">
                                     <div className="d-flex justify-content-center cardTop">
-                                        <Card className="bg-dark text-white cardLeft">
+                                        <Card className="bg-dark text-white cardLeft" data-aos="fade-up" data-aos-duration="3000">
                                             <Card.Img variant="top" src={BombeiroHidrualico} />
                                             <Card.Body>
                                                 <Card.Title>Bombeiro hidráulico</Card.Title>
@@ -49,7 +54,7 @@ const Home = () => {
                                             </Card.Body>
                                         </Card>
 
-                                        <Card className="bg-dark text-white">
+                                        <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
                                             <Card.Img variant="top" src={CacaVazamento} />
                                             <Card.Body>
                                                 <Card.Title>Caça vazamento</Card.Title>
@@ -62,7 +67,7 @@ const Home = () => {
                                     </div>
 
                                     <div className="d-flex justify-content-center">
-                                        <Card className="bg-dark text-white cardLeft">
+                                        <Card className="bg-dark text-white cardLeft" data-aos="fade-up" data-aos-duration="3000">
                                             <Card.Img variant="top" src={VideoInspecao} />
                                             <Card.Body>
                                                 <Card.Title>Vídeo inspeção</Card.Title>
@@ -74,7 +79,7 @@ const Home = () => {
                                             </Card.Body>
                                         </Card>
 
-                                        <Card className="bg-dark text-white">
+                                        <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
                                             <Card.Img variant="top" src={Desentupimento} />
                                             <Card.Body>
                                                 <Card.Title>Desentupimento</Card.Title>
@@ -90,14 +95,18 @@ const Home = () => {
                             </div>
                             <br />
                             <Divider />
-                            <div className="localizacao focus-in-expand">
+                            <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
                                 <h2>Nossa localização</h2>
                             </div>
-                            <Location />
+                            <div data-aos="fade-up" data-aos-duration="3000">
+                                <Location/>
+                            </div>
                             <br />
                             <Divider />
                             <WhatsappButton />
-                            <Footer />
+                            <div data-aos="fade-up" data-aos-duration="3000">
+                                <Footer />
+                            </div>
                     </div>
                 </div>
             </div>
