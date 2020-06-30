@@ -12,7 +12,7 @@ const Routes = () => {
     return (
         <BrowserRouter>
             <Route component={Home} path="/" exact />
-            <Route component={BombeiroHidraulico} path="/bombeiro-hidrualico" exact />
+            <Route component={BombeiroHidraulico} path="/bombeiro-hidraulico" exact />
             <Route component={CacaVazamento} path="/caca-vazamento" exact />
             <Route component={VideoInspecao} path="/video-inspecao" exact />
             <Route component={Desentupimento} path="/desentupimento" exact />

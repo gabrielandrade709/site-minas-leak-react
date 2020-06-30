@@ -16,7 +16,7 @@ const HeaderMobile = () => {
                         <Nav.Link className="options navOptions"><Link to="contato"><a>Contato</a></Link></Nav.Link>
                         <Nav.Link className="options">Quem somos</Nav.Link>
                         <NavDropdown title="Nossos serviços" className="options dropdownOptions" id="collasible-nav-dropdown">
-                            <NavDropdown.Item className="options"><Link to="/bombeiro-hidrualico">Bombeiro hidráulica</Link></NavDropdown.Item>
+                            <NavDropdown.Item className="options"><Link to="/bombeiro-hidraulico">Bombeiro hidráulica</Link></NavDropdown.Item>
                             <NavDropdown.Item className="options"><Link to="/caca-vazamento">Caça vazamento</Link></NavDropdown.Item>
                             <NavDropdown.Item className="options"><Link to="/video-inspecao">Vídeo inspeção</Link></NavDropdown.Item>
                             <NavDropdown.Item className="options"><Link to="/desentupimento">Desentupimento</Link></NavDropdown.Item>

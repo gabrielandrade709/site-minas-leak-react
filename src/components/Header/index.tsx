@@ -16,7 +16,7 @@ const Header = () => {
                             id="nav-dropdown" 
                             className="navBottons"
                         >
-                            <NavDropdown.Item><Link to="/bombeiro-hidrualico">Bombeiro hidráulica</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to="/bombeiro-hidraulico">Bombeiro hidráulica</Link></NavDropdown.Item>
                             <NavDropdown.Item><Link to="/caca-vazamento">Caça vazamento</Link></NavDropdown.Item>
                             <NavDropdown.Item><Link to="/video-inspecao">Vídeo inspeção</Link></NavDropdown.Item>
                             <NavDropdown.Item><Link to="/desentupimento">Desentupimento</Link></NavDropdown.Item>

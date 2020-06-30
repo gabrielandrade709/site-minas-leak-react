@@ -1,0 +1,88 @@
+.direita{
+    width: 500px;
+    float: right;
+}
+
+.direita ul {
+    list-style: none;
+}
+
+.esquerda{
+    float: left;
+}
+
+.card-servico{
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 40px;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.carousel-item{
+    max-width: 400px;
+}
+
+.carousel{
+    max-width: 350px;
+   
+}
+
+.carousel-inner{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.ligar-card{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+}
+
+.numero-card {
+    border-radius: 16px;
+    background: white;
+    border: none;
+    color: black;
+    font-weight: 500;
+    width: 150px;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+  }
+
+
+.numero-card:hover {
+    background: linear-gradient(#434343, #000000 1000%);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 16px;
+}
+
+.numero-card:hover a{
+    background: linear-gradient(#434343, #000000 1000%);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 16px;
+}
+
+.numero-card a {
+    color: #333333;
+    font-family: Ubuntu;
+}
+
+
+.numero-card a:hover {
+    color: white;
+    font-weight: 550;
+}
+
+.divider-footer{
+    margin-top: 30px;
+}

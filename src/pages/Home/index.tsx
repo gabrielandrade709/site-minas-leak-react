@@ -15,7 +15,7 @@ import Footer from '../../components/Footer/index';
 
 import HeaderMobile from '../../components/HeaderMobile/index';
 import LogoMobile from '../../components/LogoMobile/index';
-import FooterMobile from '../../components/FooderMobile/index';
+import FooterMobile from '../../components/FooterMobile/index';
 
 import BombeiroHidrualico from '../../assets/bombeiroHidraulicoCard.jpg';
 import CacaVazamento from '../../assets/cacaVazamentoCard.jpg';
@@ -30,7 +30,7 @@ const Home = () => {
             <div className="main-mobile">
                 <HeaderMobile />
                 <div className="container">
-                    <div className="logo-mobile">
+                    <div className="logo-mobile" data-aos="fade-up" data-aos-duration="3000">
                         <LogoMobile />
                     </div>
                     <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">

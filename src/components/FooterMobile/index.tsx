@@ -25,7 +25,7 @@ const FooterMobile = () => {
 
                         <h6 className="text-uppercase font-weight-bold ">Nossos serviços</h6>
                         <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto "/>
-                        <p> <a><Link to="/bombeiro-hidrualico">Bombeiro hidráulica</Link></a> </p>
+                        <p> <a><Link to="/bombeiro-hidraulico">Bombeiro hidráulica</Link></a> </p>
                         <p> <a><Link to="/caca-vazamento">Caça vazamento</Link></a> </p>
                         <p> <a><Link to="/video-inspecao">Vídeo inspeção</Link></a> </p>
                         <p> <a><Link to="/desentupimento">Desentupimento</Link></a> </p>
