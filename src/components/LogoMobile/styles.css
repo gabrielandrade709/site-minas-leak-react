@@ -13,6 +13,12 @@
     text-shadow: 0px 0px 1px #D9D9D9;
 }
 
+@media screen and (width: 320px) {
+  .ligar a{
+    font-size: 19px;
+  }
+}
+
 .focus-in-expand {
 	-webkit-animation: focus-in-expand 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: focus-in-expand 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

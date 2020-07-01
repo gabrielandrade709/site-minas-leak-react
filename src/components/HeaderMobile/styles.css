@@ -34,6 +34,22 @@
     text-align: center !important;
 }
 
+@media screen and (min-width: 1024px) {
+  .dropdownOptions div{
+    background: linear-gradient(#232526, #414345 100%) !important;
+    text-align: center !important;
+}
+
+}
+
+@media screen and (max-width: 1023px) {
+  .dropdownOptions div{
+    background: transparent !important;
+    text-align: center !important;
+}
+
+}
+
 .navbar-toggler {
     background: white;
     border-radius: 7px;

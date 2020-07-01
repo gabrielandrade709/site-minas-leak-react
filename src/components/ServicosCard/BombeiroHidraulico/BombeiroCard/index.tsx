@@ -4,12 +4,12 @@ import AOS from 'aos';
 import { FaPhone, FaMobileAlt } from 'react-icons/fa';
 
 import './styles.css';
-import Image1 from '../../../assets/BombeiroHidraulico/hidraulico.png';
-import Image2 from '../../../assets/BombeiroHidraulico/hidraulico2.png';
-import Image3 from '../../../assets/BombeiroHidraulico/hidraulico3.png';
-import Image4 from '../../../assets/BombeiroHidraulico/hidraulico4.png';
-import Image5 from '../../../assets/BombeiroHidraulico/hidraulico5.png';
-import Image6 from '../../../assets/BombeiroHidraulico/hidraulico6.png';
+import Image1 from '../../../../assets/BombeiroHidraulico/hidraulico.png';
+import Image2 from '../../../../assets/BombeiroHidraulico/hidraulico2.png';
+import Image3 from '../../../../assets/BombeiroHidraulico/hidraulico3.png';
+import Image4 from '../../../../assets/BombeiroHidraulico/hidraulico4.png';
+import Image5 from '../../../../assets/BombeiroHidraulico/hidraulico5.png';
+import Image6 from '../../../../assets/BombeiroHidraulico/hidraulico6.png';
 
 AOS.init();
 

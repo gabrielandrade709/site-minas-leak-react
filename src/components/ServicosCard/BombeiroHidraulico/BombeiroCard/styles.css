@@ -1,4 +1,4 @@
-.direita{
+.direita {
     width: 500px;
     float: right;
 }
@@ -7,11 +7,11 @@
     list-style: none;
 }
 
-.esquerda{
+.esquerda {
     float: left;
 }
 
-.card-servico{
+.card-servico {
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
     border-radius: 25px;
     margin-top: 40px;
@@ -23,22 +23,23 @@
     margin-bottom: 40px;
 }
 
-.carousel-item{
+.carousel-item {
     max-width: 400px;
 }
 
-.carousel{
-    max-width: 350px;
-   
+@media screen and (min-width: 1025px) and (max-width: 3000px) {
+    .carousel {
+        max-width: 350px;
+    }
 }
 
-.carousel-inner{
+.carousel-inner {
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
     margin-top: 50px;
 }
 
-.ligar-card{
+.ligar-card {
     display: flex;
     margin-top: 25px;
     justify-content: space-evenly;
@@ -53,8 +54,7 @@
     width: 150px;
     height: 30px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
-  }
-
+}
 
 .numero-card:hover {
     background: linear-gradient(#434343, #000000 1000%);
@@ -64,7 +64,7 @@
     border-radius: 16px;
 }
 
-.numero-card:hover a{
+.numero-card:hover a {
     background: linear-gradient(#434343, #000000 1000%);
     color: white;
     font-weight: 500;
@@ -77,12 +77,11 @@
     font-family: Ubuntu;
 }
 
-
 .numero-card a:hover {
     color: white;
     font-weight: 550;
 }
 
-.divider-footer{
+.divider-footer {
     margin-top: 30px;
 }
