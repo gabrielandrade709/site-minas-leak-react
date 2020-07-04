@@ -19,7 +19,7 @@ import FooterMobile from '../../components/FooterMobile/index';
 
 AOS.init();
 
-const CacaVazamento = () => {
+const Desentupimento = () => {
     return (
         <>
             <div className="main-desktop">
@@ -82,4 +82,4 @@ const CacaVazamento = () => {
     );
 }
 
-export default CacaVazamento;
+export default Desentupimento;
