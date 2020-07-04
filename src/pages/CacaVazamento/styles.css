@@ -1,0 +1,21 @@
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .main-mobile {
+    display: block;
+  }
+  .main-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 3000px) {
+  .main-mobile {
+    display: none;
+  }
+  .main-desktop {
+    display: block;
+  }
+}
+
+.divider-logo {
+  margin-bottom: 40px;
+}
