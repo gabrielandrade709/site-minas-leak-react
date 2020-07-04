@@ -3,12 +3,12 @@ import AOS from 'aos';
 import { Carousel } from 'react-bootstrap';
 import { FaPhone, FaMobileAlt } from 'react-icons/fa';
 
-import Image1 from '../../../../assets/VideoInspecao/videoInspecaoCarousel1.png';
-import Image2 from '../../../../assets/VideoInspecao/videoInspecaoCarousel2.png';
-import Image3 from '../../../../assets/VideoInspecao/videoInspecaoCarousel3.png';
-import Image4 from '../../../../assets/VideoInspecao/videoInspecaoCarousel4.png';
-import Image5 from '../../../../assets/VideoInspecao/videoInspecaoCarousel5.png';
-import Image6 from '../../../../assets/VideoInspecao/videoInspecaoCarousel6.png';
+import Image1 from '../../../../assets/VideoInspecao/videoInspecaoCarousel1.jpg';
+import Image2 from '../../../../assets/VideoInspecao/videoInspecaoCarousel2.jpg';
+import Image3 from '../../../../assets/VideoInspecao/videoInspecaoCarousel3.jpg';
+import Image4 from '../../../../assets/VideoInspecao/videoInspecaoCarousel4.jpg';
+import Image5 from '../../../../assets/VideoInspecao/videoInspecaoCarousel5.jpg';
+import Image6 from '../../../../assets/VideoInspecao/videoInspecaoCarousel6.jpg';
 
 import './styles.css';
 

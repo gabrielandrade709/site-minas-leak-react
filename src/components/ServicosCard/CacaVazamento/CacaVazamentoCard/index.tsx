@@ -4,12 +4,12 @@ import AOS from 'aos';
 import { FaPhone, FaMobileAlt } from 'react-icons/fa';
 
 import './styles.css';
-import Image1 from '../../../../assets/CacaVazamento/cacaVazamento.png';
-import Image2 from '../../../../assets/CacaVazamento/cacaVazamento1.png';
-import Image3 from '../../../../assets/CacaVazamento/cacaVazamento2.png';
-import Image4 from '../../../../assets/CacaVazamento/cacaVazamento3.png';
-import Image5 from '../../../../assets/CacaVazamento/cacaVazamento4.png';
-import Image6 from '../../../../assets/CacaVazamento/cacaVazamento5.png';
+import Image1 from '../../../../assets/CacaVazamento/cacaVazamento.jpg';
+import Image2 from '../../../../assets/CacaVazamento/cacaVazamento1.jpg';
+import Image3 from '../../../../assets/CacaVazamento/cacaVazamento2.jpg';
+import Image4 from '../../../../assets/CacaVazamento/cacaVazamento3.jpg';
+import Image5 from '../../../../assets/CacaVazamento/cacaVazamento4.jpg';
+import Image6 from '../../../../assets/CacaVazamento/cacaVazamento5.jpg';
 
 
 AOS.init();

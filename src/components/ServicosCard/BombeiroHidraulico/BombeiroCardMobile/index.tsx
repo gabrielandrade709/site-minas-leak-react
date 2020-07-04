@@ -3,12 +3,12 @@ import AOS from 'aos';
 import { Carousel } from 'react-bootstrap';
 import { FaPhone, FaMobileAlt } from 'react-icons/fa';
 
-import Image1 from '../../../../assets/BombeiroHidraulico/hidraulico.png';
-import Image2 from '../../../../assets/BombeiroHidraulico/hidraulico2.png';
-import Image3 from '../../../../assets/BombeiroHidraulico/hidraulico3.png';
-import Image4 from '../../../../assets/BombeiroHidraulico/hidraulico4.png';
-import Image5 from '../../../../assets/BombeiroHidraulico/hidraulico5.png';
-import Image6 from '../../../../assets/BombeiroHidraulico/hidraulico6.png';
+import Image1 from '../../../../assets/BombeiroHidraulico/hidraulico.jpg';
+import Image2 from '../../../../assets/BombeiroHidraulico/hidraulico2.jpg';
+import Image3 from '../../../../assets/BombeiroHidraulico/hidraulico3.jpg';
+import Image4 from '../../../../assets/BombeiroHidraulico/hidraulico4.jpg';
+import Image5 from '../../../../assets/BombeiroHidraulico/hidraulico5.jpg';
+import Image6 from '../../../../assets/BombeiroHidraulico/hidraulico6.jpg';
 
 import './styles.css';
 
