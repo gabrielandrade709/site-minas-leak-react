@@ -9,6 +9,10 @@ import Image3 from '../../../../assets/BombeiroHidraulico/hidraulico3.jpg';
 import Image4 from '../../../../assets/BombeiroHidraulico/hidraulico4.jpg';
 import Image5 from '../../../../assets/BombeiroHidraulico/hidraulico5.jpg';
 import Image6 from '../../../../assets/BombeiroHidraulico/hidraulico6.jpg';
+import Image7 from '../../../../assets/BombeiroHidraulico/hidraulico7.jpg';
+import Image8 from '../../../../assets/BombeiroHidraulico/hidraulico8.jpg';
+import Image9 from '../../../../assets/BombeiroHidraulico/hidraulico9.jpg';
+import Image10 from '../../../../assets/BombeiroHidraulico/hidraulico10.jpg';
 
 import './styles.css';
 
@@ -61,6 +65,34 @@ const BombeiroCardMobile = () => {
                         <img
                             className="d-block w-100"
                             src={Image6}
+                            alt="First slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={Image7}
+                            alt="First slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={Image8}
+                            alt="First slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={Image9}
+                            alt="First slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={Image10}
                             alt="First slide"
                         />
                     </Carousel.Item>
