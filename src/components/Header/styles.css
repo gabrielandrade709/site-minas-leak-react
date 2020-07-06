@@ -1,89 +1,131 @@
-.center{
-    margin: 0 auto;
+.center {
+  margin: 0 auto;
 }
 
-.title{
-    font-weight: bold;
-    font-size: 18px;
-    color: white !important;
-    text-shadow: 0px 6px 12px #000;
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  color: white !important;
+  text-shadow: 0px 6px 12px #000;
 }
 
 .dropdown:hover>.dropdown-menu {
   display: block;
- }
-
-.navBottons {
-    color: white !important;
 }
 
-#nav-dropdown{
-    color: white !important;
+.modal-content {
+  background: linear-gradient(#434343, #000000 1000%) !important;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+
+.navBottons {
+  color: white !important;
+}
+
+#nav-dropdown {
+  color: white !important;
 }
 
 .dropdown-menu {
-    background: -webkit-linear-gradient(#232526, #414345 110%);
+  background: -webkit-linear-gradient(#232526, #414345 110%);
 }
 
-.dropdown-item:hover{
-    background: -webkit-linear-gradient(#232526, #414345 300%);
-    background: no-repeat;
+.dropdown-item:hover {
+  background: -webkit-linear-gradient(#232526, #414345 300%);
+  background: no-repeat;
 }
 
-.dropdown-item a{
-    color: white !important;
-
+.dropdown-item a {
+  color: white !important;
 }
 
-.dropdown-item a:hover{
-    text-shadow: 0px 1px 2px #ffff;
-
+.dropdown-item a:hover {
+  text-shadow: 0px 1px 2px #ffff;
 }
 
-.navBottons a:hover{
-    text-shadow: 0px 1px 2px #ffff;
+.navBottons a:hover {
+  text-shadow: 0px 1px 2px #ffff;
 }
 
-.navBottons a{
-    color: white;
+.navBottons a {
+  color: white;
 }
 
 .navBottons {
   background: transparent !important;
 }
 
-.navColorDesktop{
-    background: transparent !important;
+.navColorDesktop {
+  background: transparent !important;
 }
 
 .focus-in-expand {
-	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
- @-webkit-keyframes focus-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
   }
-  @keyframes focus-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
   }
+}
+
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.fechar{
+  border-radius: 16px;
+  background: white;
+  border: none;
+  color: black;
+  font-weight: 500;
+  width: 150px;
+  height: 30px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+
+.fechar:hover {
+  background: linear-gradient(#434343, #000000 1000%);
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 16px;
+}
+
+.fechar:hover a {
+  background: linear-gradient(#434343, #000000 1000%);
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 16px;
+}
+
+.fechar a {
+  color: #333333;
+  font-family: Ubuntu;
+}
+
+.fechar a:hover {
+  color: white;
+  font-weight: 550;
+}

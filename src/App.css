@@ -67,3 +67,59 @@ p, a, ul, li {
       opacity: 1;
     }
   }
+.alertify .ajs-dialog{
+  background: linear-gradient(#434343, #000000 1000%) !important;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0) !important;
+  border-radius: 25px !important;
+}
+
+.ajs-body {
+  background: linear-gradient(#434343, #000000 1000%) !important;
+}
+
+.ajs-header{
+  background: linear-gradient(#434343, #000000 1000%) !important;
+}
+
+.ajs-footer{
+  background: linear-gradient(#434343, #000000 1000%) !important;
+}
+
+.ajs-ok {
+  border-radius: 16px;
+  background: white !important;
+  border: none;
+  color: black !important;
+  font-weight: 500;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+  
+}
+
+.ajs-ok:hover {
+  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+
+.ajs-cancel{
+  color: white !important;
+  border-radius: 16px;
+  background: linear-gradient(#434343, #000000 1000%);
+  border: none;
+  font-weight: 500;
+  width: 100px;
+  height: 30px;
+}
+
+.ajs-cancel:hover{
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+
+.ajs-error{
+  border-radius: 25px !important;
+}
+
+.ajs-success{
+  border-radius: 25px !important;
+}
+

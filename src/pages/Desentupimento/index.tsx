@@ -3,6 +3,7 @@ import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import { Divider } from '@material-ui/core';
+import MetaTags from 'react-meta-tags';
 
 import Header from '../../components/Header/index';
 import Logo from '../../components/Logo/index';
@@ -22,6 +23,28 @@ AOS.init();
 const CacaVazamento = () => {
     return (
         <>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>Minas Leak - desentupimento</title>
+                    <meta name="description" content="Prestamos o serviço de desentupimento." />
+                    <meta property="og:title" content="Minas Leak - desentupimento" />
+                    <meta name="keywords" content="desentupimento,desentupidora em bh mg,desentupidora em bh e regiao,desentupidora em bh centro,desentupidora em barreiro bh,desentupidora bh pampulha,
+                        desentupidora bh 24 horas,desentupidora bh venda nova,serviço de desentupidora em bh,desentupidora bh bairro castelo,desentupidora bh barroca,desentupidora bh betim,
+                        desentupidora buritis bh,desentupidora bh - caça vazamentos,desentupidora bh concordia,desentupidora caiçara bh,desentupidora castelo bh,desentupidora contorno bh,
+                        desentupidora de esgoto em bh,desentupidora de pia em bh,desentupidora de fossa em bh,desentupidora no floresta em bh,desentupidora gutierrez bh,desentupidora jaragua bh,
+                        desentupidora bh belo horizonte - mg,desentupidora em venda nova bh,desentupidora no barreiro em bh,desentupidora bh padre eustaquio,desentupidora serra bh"
+                    />
+                    <meta name="author" content="Minas Leak" />
+                    <meta name="goooglebot" content="index,follow" />
+                    <meta name="robots" content="index,follow" />
+                    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+                    <meta name="requested_url" content="https://www.minasleak.com.br" />
+                    <meta property="og:title" content="Minas Leak - Desentupimento" />
+                    <meta property="og:site_name" content="Minas Leak" />
+                    <meta property="og:description" content="Prestamos o serviço de desentupimento." />
+                    <meta property="og:type" content="website" />
+                </MetaTags>
+            </div>
             <div className="main-desktop">
                 <Header />
                 <div className="container">

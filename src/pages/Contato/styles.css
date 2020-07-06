@@ -1,0 +1,45 @@
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    .main-mobile {
+      display: block;
+    }
+    .main-desktop {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 3000px) {
+    .main-mobile {
+      display: none;
+    }
+    .main-desktop {
+      display: block;
+    }
+  }
+
+.form-contato{
+    box-shadow: 0 2px 10px 0 rgb(0, 0, 0);
+    border-radius: 25px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.form-contato-mobile{
+  box-shadow: 0 2px 10px 0 rgb(0, 0, 0);
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.title-form{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.top-form-divider{
+    margin-bottom: 20px;
+}
+
+.divider-bottom-form{
+  margin-top: 20px;
+}
+

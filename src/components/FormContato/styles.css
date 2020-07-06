@@ -1,0 +1,54 @@
+.contato-conteudo{
+    margin: 0 auto;
+    width: 790px;
+}
+
+.enviar {
+    border-radius: 16px;
+    background: white;
+    border: none;
+    color: black;
+    font-weight: 500;
+    width: 150px;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+
+.enviar:hover {
+    background: linear-gradient(#434343, #000000 1000%);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 16px;
+}
+
+.enviar:hover a {
+    background: linear-gradient(#434343, #000000 1000%);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 16px;
+}
+
+.enviar a {
+    color: #333333;
+    font-family: Ubuntu;
+}
+
+.enviar a:hover {
+    color: white;
+    font-weight: 550;
+}
+
+.button-enviar{
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+label {
+    color: white !important;
+}
+
+input, textarea {
+    color: #D9D9D9 !important;
+}

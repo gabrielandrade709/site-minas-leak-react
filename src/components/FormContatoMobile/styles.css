@@ -1,0 +1,11 @@
+.contato-conteudo-mobile{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-enviar-mobile{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

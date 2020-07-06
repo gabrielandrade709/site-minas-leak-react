@@ -3,6 +3,7 @@ import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import { Divider } from '@material-ui/core';
+import MetaTags from 'react-meta-tags';
 
 import Header from '../../components/Header/index';
 import Logo from '../../components/Logo/index';
@@ -22,6 +23,25 @@ AOS.init();
 const VideoInspecao = () => {
     return (
         <>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>Minas Leak - vídeo inspeção</title>
+                    <meta name="description" content="Prestamos o serviço de vídeo inspeção." />
+                    <meta property="og:title" content="Minas Leak - vídeo inspeção" />
+                    <meta name="keywords" content="vídeo inspeção,video inspeção de tubulação de esgoto,video inspeção de tubulação,video inspeção robotizada,video inspeção de esgoto,
+                        video inspeção de tubulações,inspeção video de tubagens,serviço de video inspeção,video inspeção esgoto,vídeo inspeção robotizada" 
+                    />
+                    <meta name="author" content="Minas Leak" />
+                    <meta name="goooglebot" content="index,follow" />
+                    <meta name="robots" content="index,follow" />
+                    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+                    <meta name="requested_url" content="https://www.minasleak.com.br" />
+                    <meta property="og:title" content="Minas Leak - vídeo inspeção" />
+                    <meta property="og:site_name" content="Minas Leak" />
+                    <meta property="og:description" content="Prestamos o serviço de vídeo inspeção." />
+                    <meta property="og:type" content="website" />
+                </MetaTags>
+            </div>
             <div className="main-desktop">
                 <Header />
                 <div className="container">

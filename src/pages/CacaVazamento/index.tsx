@@ -3,6 +3,7 @@ import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import { Divider } from '@material-ui/core';
+import MetaTags from 'react-meta-tags';
 
 import Header from '../../components/Header/index';
 import Logo from '../../components/Logo/index';
@@ -22,6 +23,29 @@ AOS.init();
 const Desentupimento = () => {
     return (
         <>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>Minas Leak - caça vazamento</title>
+                    <meta name="description" content="Prestamos serviços de caça vazamentos e infiltrações." />
+                    <meta property="og:title" content="Minas Leak - caça vazamento" />
+                    <meta name="keywords" content="caça vazamento,caça vazamentos bh,caça vazamentos de agua,caça vazamento bh,caça vazamento contagem,caça vazamento agua,caça vazamento apartamento,
+                        caça vazamento agua fria,caçadores de vazamento,caça vazamento de agua,caça vazamento de esgoto,caça vazamento com aparelho,empresa de caça vazamento,serviço de caça vazamento,
+                        telefone de caça vazamento,caça vazamento em residência,caça vazamento em apartamento,desentupidora e caça vazamento,encanador e caça vazamentos,
+                        bombeiro hidráulico e caça vazamento belo horizonte,caça vazamento e infiltração,caça vazamentos e desentupidora,caça vazamentos e desentupidora site,caça vazamento e reparos,
+                        caça vazamento geofone,caça vazamento hidrante,caça vazamento hidráulica,caça vazamento hidrômetro,caça vazamento infiltração,empresa que caça vazamento,caça vazamento residencial,
+                        caça vazamento telefone,caça vazamento com raio x,caça vazamento zona sul,caça vazamento de agua em bh,empresa de caça vazamentos em bh,caça vazamentos de agua bh" 
+                    />
+                    <meta name="author" content="Minas Leak" />
+                    <meta name="goooglebot" content="index,follow" />
+                    <meta name="robots" content="index,follow" />
+                    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+                    <meta name="requested_url" content="https://www.minasleak.com.br" />
+                    <meta property="og:title" content="Minas Leak - caça vazamento" />
+                    <meta property="og:site_name" content="Minas Leak" />
+                    <meta property="og:description" content="Prestamos serviços de caça vazamentos e infiltrações." />
+                    <meta property="og:type" content="website" />
+                </MetaTags>
+            </div>
             <div className="main-desktop">
                 <Header />
                 <div className="container">

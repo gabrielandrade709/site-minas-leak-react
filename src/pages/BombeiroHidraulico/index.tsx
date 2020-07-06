@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
+import MetaTags from 'react-meta-tags';
 import { Divider } from '@material-ui/core';
 
 import Header from '../../components/Header/index';
@@ -22,6 +23,37 @@ AOS.init();
 const BombeiroHidrualico = () => {
     return (
         <>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>Minas Leak - bombeiro hidráulico</title>
+                    <meta name="description" content="Bombeiro hidráulico 24 horas" />
+                    <meta property="og:title" content="Minas Leak - Bombeiro Hidráulico" />
+                    <meta name="keywords" content="bombeiro hidráulico contagem,bombeiro hidráulico bh padre eustáquio,bombeiro hidráulico bh floresta,bombeiro hidráulico belo horizonte,
+                        bombeiro hidraulico caiçara bh,bombeiro hidraulico dona clara bh,bombeiro hidráulico em contagem,bombeiro hidráulico em betim,bombeiro hidráulico em belo horizonte,
+                        eletricista e bombeiro hidráulico,eletricista e bombeiro hidráulico (sos reparos),bombeiro hidráulico e caça vazamento belo horizonte,bombeiro hidraulico e eletricista,
+                        bombeiro hidraulico 24 horas bh,bombeiro hidraulico belo horizonte,bombeiro hidraulico lagoa santa,bombeiro hidraulico nova lima,bombeiro hidráulico ou encanador,
+                        bombeiro hidráulico telefone,bombeiro hidraulico bh 24 horas,bombeiro hidraulico bh pampulha,bombeiro hidraulico bh padre eustaquio,bombeiro hidraulico bh santa efigenia,
+                        bombeiro hidraulico bh floresta,bombeiro hidraulico bh savassi,bombeiro hidraulico bh anchieta,bombeiro hidraulico santa amelia bh,bombeiro hidraulico bh alipio de melo,
+                        bombeiro hidraulico bh santo antonio,bombeiro hidraulico bh jardim america,serviço de bombeiro hidraulico em bh,bombeiro hidraulico bh buritis,bombeiro hidraulico bh boa vista,
+                        bombeiro hidraulico bh betania,bombeiro hidraulico barreiro bh,bombeiro hidraulico bairro buritis bh,bombeiro hidraulico bh castelo,bombeiro hidraulico bh cidade nova,
+                        bombeiro hidraulico bh carlos prates,bombeiro hidraulico bh cachoeirinha,bombeiro hidraulico centro bh,bombeiro hidraulico caiçara bh,bombeiro hidraulico bairro castelo bh,
+                        bombeiro hidraulico dona clara bh,bombeiro hidraulico bh dona clara,bombeiro hidraulico bh floramar,bombeiro hidraulico sagrada familia bh,bombeiro hidraulico bairro floresta bh,
+                        bombeiro hidraulico gutierrez bh,bombeiro hidráulico bh mg,bombeiro hidráulico bh belo horizonte - mg,bombeiro hidráulico santa monica bh,bombeiro hidraulico bh nova suica,
+                        bombeiro hidraulico bh nova suissa,bombeiro hidraulico em venda nova bh,bombeiro hidraulico cidade nova bh,bombeiro hidraulico bh planalto,bombeiro hidraulico bh palmares,
+                        bombeiro hidraulico prado bh,bombeiro hidraulico predial bh,bombeiro hidraulico bairro planalto bh,bombeiro hidraulico bh sagrada familia,bombeiro hidraulico bh santa monica,
+                        bombeiro hidraulico bh santa amelia,bombeiro hidraulico bh santa tereza,bombeiro hidraulico bh serra,bombeiro hidraulico santa tereza bh,bombeiro hidraulico bh venda nova,
+                        bombeiro hidraulico boa vista bh" 
+                    />
+                    <meta name="author" content="Minas Leak" />
+                    <meta name="goooglebot" content="index,follow" />
+                    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+                    <meta name="requested_url" content="https://www.minasleak.com.br"/>
+                    <meta property="og:title" content="Minas Leak - bombeiro hidráulico" />
+                    <meta property="og:site_name" content="Minas Leak" />
+                    <meta property="og:description" content="Bombeiro hidráulico 24 horas" />
+                    <meta property="og:type" content="website" />
+                </MetaTags>
+            </div>
             <div className="main-desktop">
                 <Header />
                 <div className="container">
