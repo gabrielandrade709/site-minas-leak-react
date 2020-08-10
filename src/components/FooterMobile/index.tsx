@@ -15,7 +15,7 @@ const FooterMobile = () => {
 
                         <h6 className="text-uppercase font-weight-bold centeredText">Quem somos</h6>
                         <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " />
-                        <p>A <b>Minas Leak</b> conta com uma equipe técnica especializada com mais de 15
+                        <p className="textQuemSomos">A <b>Minas Leak</b> conta com uma equipe técnica especializada com mais de 15
                             anos de experiência no mercado, e o nosso principal foco é o compromisso com os nossos clientes
                             e total garantia de todos os serviços prestados,
                             prezando sempre o bem-estar e comodidade dos nossos clientes.</p>

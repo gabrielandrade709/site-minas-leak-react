@@ -1,4 +1,25 @@
-.centeredText{
+@media screen and (min-width: 0px) and (max-width: 422px) {
+    .textQuemSomos {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 423px) and (max-width: 451px) {
+     .textQuemSomos {
+        text-align: justify;
+    } 
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    .footer h6 {
+        font-size: 25px;
+    }
+    .footer p {
+        font-size: 20px;
+    }
+}
+
+.centeredText {
     text-align: center;
 }
 
@@ -18,16 +39,17 @@
     color: white;
 }
 
-.copyright{
+.copyright {
     justify-content: flex-start;
 }
 
-.copyright a{
+.copyright a {
     color: #D9D9D9 !important;
     font-family: Ubuntu;
     font-size: 13px;
 }
 
-.iconFooter{
+.iconFooter {
     margin-right: 10px;
 }
+

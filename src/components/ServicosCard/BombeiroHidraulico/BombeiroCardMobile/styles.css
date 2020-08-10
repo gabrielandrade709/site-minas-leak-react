@@ -17,8 +17,17 @@
     margin-top: 10px;
 }
 
+.title-card-mobile h4{
+    font-size: 30px;
+}
+
 .text-card-mobile ul{
     list-style: none;
+    font-size: 20px;
+}
+
+.text-card-mobile p{
+    font-size: 20px;
 }
 
 @media screen and (max-width: 361px) {

@@ -1,11 +1,30 @@
 @media screen and (min-width: 0px) and (max-width: 1024px) {
   .main-mobile {    display: block;  }
   .main-desktop {    display: none;  }
+
+  .bem-vindo p{
+    font-size: 20px;
+  }
+
+  .ligar {
+    font-size: 30px !important;
+  }
+
+  .card-title {
+    font-size: 30px !important;
+  }
+
+  .card-body p{
+    font-size: 25px !important;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 3000px) {
   .main-mobile {    display: none;  }
   .main-desktop {    display: block;  }
+  .ligar {
+    font-size: 20px;
+  }
 
 }
 
@@ -102,7 +121,6 @@
 .ligar{
     color: white;
     font-weight: bold;
-    font-size: 20px;
 }
 
 .spaceBetween{
