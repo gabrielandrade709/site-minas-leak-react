@@ -12,6 +12,7 @@
 
   .card-title {
     font-size: 30px !important;
+    font-weight: bold !important;
   }
 
   .card-body p{
