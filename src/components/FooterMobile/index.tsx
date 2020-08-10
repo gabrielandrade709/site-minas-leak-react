@@ -24,7 +24,7 @@ const FooterMobile = () => {
                     <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 centeredText nossosServicos">
 
                         <h6 className="text-uppercase font-weight-bold ">Nossos serviços</h6>
-                        <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto "/>
+                        <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " />
                         <p> <a><Link to="/bombeiro-hidraulico">Bombeiro hidráulica</Link></a> </p>
                         <p> <a><Link to="/caca-vazamento">Caça vazamento</Link></a> </p>
                         <p> <a><Link to="/video-inspecao">Vídeo inspeção</Link></a> </p>
@@ -44,7 +44,7 @@ const FooterMobile = () => {
                 </div>
                 <Divider />
                 <div className="copyright">
-                <a > &copy; {new Date().getFullYear()} Copyright: Minas Leak </a>
+                    <a > &copy; {new Date().getFullYear()} Copyright: Minas Leak </a>
                 </div>
             </div>
         </div>
