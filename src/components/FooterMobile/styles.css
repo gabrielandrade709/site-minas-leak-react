@@ -19,9 +19,7 @@
 }
 
 .copyright{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
 }
 
 .copyright a{
