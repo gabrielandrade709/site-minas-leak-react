@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
@@ -21,6 +21,10 @@ import FooterMobile from '../../components/FooterMobile/index';
 AOS.init();
 
 const CacaVazamento = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div className="wrapper">
@@ -48,27 +52,27 @@ const CacaVazamento = () => {
             <div className="main-desktop">
                 <Header />
                 <div className="container">
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Logo />
                     </div>
-                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <DesentupimentoCard />
-                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
-                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <h2>Nossa localização</h2>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Location />
                     </div>
-                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <WhatsappButton />
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Footer />
                     </div>
                 </div>
@@ -76,27 +80,27 @@ const CacaVazamento = () => {
             <div className="main-mobile">
                 <HeaderMobile />
                 <div className="container">
-                    <div className="logo-mobile" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="logo-mobile" data-aos="fade-up" data-aos-duration="2000">
                         <LogoMobile />
                     </div>
-                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <DesentupimentoCardMobile />
-                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
-                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <h2>Nossa localização</h2>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Location />
                     </div>
-                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <WhatsappButton />
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <FooterMobile />
                     </div>
                 </div>

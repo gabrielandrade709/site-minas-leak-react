@@ -49,7 +49,7 @@ const Header = () => {
                             <NavDropdown.Item><Link to="/video-inspecao">Vídeo inspeção</Link></NavDropdown.Item>
                             <NavDropdown.Item><Link to="/desentupimento">Desentupimento</Link></NavDropdown.Item>
                         </NavDropdown>
-                        <Navbar className="title  navBottons">Minas Leak</Navbar>
+                        <Navbar className="title  navBottons"><Link to="/">Minas Leak</Link></Navbar>
                         <Nav.Link className="navBottons"><Link to="contato"><a>Contato</a></Link></Nav.Link>
                         <Nav.Link className="navBottons" onClick={handleShow} ><a>Quem somos</a></Nav.Link>
                     </Nav>

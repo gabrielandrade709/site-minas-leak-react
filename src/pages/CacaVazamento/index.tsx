@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
@@ -21,6 +21,10 @@ import FooterMobile from '../../components/FooterMobile/index';
 AOS.init();
 
 const Desentupimento = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div className="wrapper">
@@ -33,7 +37,7 @@ const Desentupimento = () => {
                         telefone de caça vazamento,caça vazamento em residência,caça vazamento em apartamento,desentupidora e caça vazamento,encanador e caça vazamentos,
                         bombeiro hidráulico e caça vazamento belo horizonte,caça vazamento e infiltração,caça vazamentos e desentupidora,caça vazamentos e desentupidora site,caça vazamento e reparos,
                         caça vazamento geofone,caça vazamento hidrante,caça vazamento hidráulica,caça vazamento hidrômetro,caça vazamento infiltração,empresa que caça vazamento,caça vazamento residencial,
-                        caça vazamento telefone,caça vazamento com raio x,caça vazamento zona sul,caça vazamento de agua em bh,empresa de caça vazamentos em bh,caça vazamentos de agua bh" 
+                        caça vazamento telefone,caça vazamento com raio x,caça vazamento zona sul,caça vazamento de agua em bh,empresa de caça vazamentos em bh,caça vazamentos de agua bh"
                     />
                     <meta name="author" content="Minas Leak" />
                     <meta name="goooglebot" content="index,follow" />
@@ -49,27 +53,27 @@ const Desentupimento = () => {
             <div className="main-desktop">
                 <Header />
                 <div className="container">
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Logo />
                     </div>
-                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <CacaVazamentoCard />
-                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
-                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <h2>Nossa localização</h2>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Location />
                     </div>
-                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <WhatsappButton />
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Footer />
                     </div>
                 </div>
@@ -77,27 +81,27 @@ const Desentupimento = () => {
             <div className="main-mobile">
                 <HeaderMobile />
                 <div className="container">
-                    <div className="logo-mobile" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="logo-mobile" data-aos="fade-up" data-aos-duration="2000">
                         <LogoMobile />
                     </div>
-                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <CacaCardMobile />
-                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
-                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <h2>Nossa localização</h2>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Location />
                     </div>
-                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <WhatsappButton />
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <FooterMobile />
                     </div>
                 </div>

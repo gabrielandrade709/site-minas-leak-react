@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
@@ -21,6 +21,9 @@ import FooterMobile from '../../components/FooterMobile/index';
 AOS.init();
 
 const VideoInspecao = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
             <div className="wrapper">
@@ -29,7 +32,7 @@ const VideoInspecao = () => {
                     <meta name="description" content="Prestamos o serviço de vídeo inspeção." />
                     <meta property="og:title" content="Minas Leak - vídeo inspeção" />
                     <meta name="keywords" content="vídeo inspeção,video inspeção de tubulação de esgoto,video inspeção de tubulação,video inspeção robotizada,video inspeção de esgoto,
-                        video inspeção de tubulações,inspeção video de tubagens,serviço de video inspeção,video inspeção esgoto,vídeo inspeção robotizada" 
+                        video inspeção de tubulações,inspeção video de tubagens,serviço de video inspeção,video inspeção esgoto,vídeo inspeção robotizada"
                     />
                     <meta name="author" content="Minas Leak" />
                     <meta name="goooglebot" content="index,follow" />
@@ -45,27 +48,27 @@ const VideoInspecao = () => {
             <div className="main-desktop">
                 <Header />
                 <div className="container">
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Logo />
                     </div>
-                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <VideoInspecaoCard />
-                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
-                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <h2>Nossa localização</h2>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Location />
                     </div>
-                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <WhatsappButton />
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Footer />
                     </div>
                 </div>
@@ -73,27 +76,27 @@ const VideoInspecao = () => {
             <div className="main-mobile">
                 <HeaderMobile />
                 <div className="container">
-                    <div className="logo-mobile" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="logo-mobile" data-aos="fade-up" data-aos-duration="2000">
                         <LogoMobile />
                     </div>
-                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-logo" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <VideoInspecaoCardMobile />
-                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
-                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="localizacao focus-in-expand" data-aos="fade-up" data-aos-duration="2000">
                         <h2>Nossa localização</h2>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <Location />
                     </div>
-                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="focus-in-expand divider-footer" data-aos="fade-up" data-aos-duration="2000">
                         <Divider />
                     </div>
                     <WhatsappButton />
-                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <FooterMobile />
                     </div>
                 </div>

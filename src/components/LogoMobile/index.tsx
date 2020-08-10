@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 import Logotipo from '../../assets/logotipo.png';
 
@@ -7,7 +8,7 @@ const LogoMobile = () => {
     return (
         <>
             <div className="logo focus-in-expand">
-                <img src={Logotipo} />
+            <Link to="/" ><img src={Logotipo} /></ Link>
             </div>
             <div className="center focus-in-expand">
                 <p className="ligar">
