@@ -7,6 +7,9 @@ import MetaTags from 'react-meta-tags';
 import { Divider } from '@material-ui/core';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import AwesomeSlider from 'react-awesome-slider';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import 'react-awesome-slider/dist/styles.css';
 
 import Header from '../../components/Header/index';
 import Logo from '../../components/Logo/index'
@@ -23,7 +26,41 @@ import CacaVazamento from '../../assets/cacaVazamentoCard.jpg';
 import VideoInspecao from '../../assets/videoInspecaoCard.jpg';
 import Desentupimento from '../../assets/desentupimentoCard.jpg';
 
+import BombeiroHidraulico1 from '../../assets/BombeiroHidraulico/hidraulico.jpg';
+import BombeiroHidraulico2 from '../../assets/BombeiroHidraulico/hidraulico2.jpg';
+import BombeiroHidraulico3 from '../../assets/BombeiroHidraulico/hidraulico3.jpg';
+import BombeiroHidraulico4 from '../../assets/BombeiroHidraulico/hidraulico4.jpg';
+import BombeiroHidraulico5 from '../../assets/BombeiroHidraulico/hidraulico5.jpg';
+import BombeiroHidraulico6 from '../../assets/BombeiroHidraulico/hidraulico6.jpg';
+import BombeiroHidraulico7 from '../../assets/BombeiroHidraulico/hidraulico7.jpg';
+import BombeiroHidraulico8 from '../../assets/BombeiroHidraulico/hidraulico8.jpg';
+import BombeiroHidraulico9 from '../../assets/BombeiroHidraulico/hidraulico9.jpg';
+import BombeiroHidraulico10 from '../../assets/BombeiroHidraulico/hidraulico10.jpg';
+
+import CacaVazamento1 from '../../assets/CacaVazamento/cacaVazamento.jpg';
+import CacaVazamento2 from '../../assets/CacaVazamento/cacaVazamento1.jpg';
+import CacaVazamento3 from '../../assets/CacaVazamento/cacaVazamento2.jpg';
+import CacaVazamento4 from '../../assets/CacaVazamento/cacaVazamento3.jpg';
+import CacaVazamento5 from '../../assets/CacaVazamento/cacaVazamento4.jpg';
+import CacaVazamento6 from '../../assets/CacaVazamento/cacaVazamento5.jpg';
+import CacaVazamento7 from '../../assets/CacaVazamento/cacaVazamento6.jpg';
+import CacaVazamento8 from '../../assets/CacaVazamento/cacaVazamento7.jpg';
+
+import VideoInspecao1 from '../../assets/VideoInspecao/videoInspecaoCarousel1.jpg';
+import VideoInspecao2 from '../../assets/VideoInspecao/videoInspecaoCarousel2.jpg';
+import VideoInspecao3 from '../../assets/VideoInspecao/videoInspecaoCarousel3.jpg';
+import VideoInspecao4 from '../../assets/VideoInspecao/videoInspecaoCarousel4.jpg';
+import VideoInspecao5 from '../../assets/VideoInspecao/videoInspecaoCarousel5.jpg';
+import VideoInspecao6 from '../../assets/VideoInspecao/videoInspecaoCarousel6.jpg';
+
+import Desentupimento1 from '../../assets/Desentupimento/desentupimento1.jpg';
+import Desentupimento2 from '../../assets/Desentupimento/desentupimento2.jpg';
+import Desentupimento3 from '../../assets/Desentupimento/desentupimento3.jpg';
+
 AOS.init();
+
+
+const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const Home = () => {
     useEffect(() => {
@@ -93,7 +130,63 @@ const Home = () => {
                     </div>
                     <div className="d-flex cardTop row focus-in-expand">
                         <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
-                        <Link to="/bombeiro-hidraulico" ><Card.Img variant="top" src={BombeiroHidrualico} /></ Link>
+                            <AutoplaySlider
+                                play={true}
+                                cancelOnInteraction={false} // should stop playing on user interaction
+                                interval={6000}
+                            >
+
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico1} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico2} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico3} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico4} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico5} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico6} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico7} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico8} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico9} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/bombeiro-hidraulico" >
+                                        <img className="card-image-desktop" src={BombeiroHidraulico10} />
+                                    </ Link>
+                                </div>
+                            </AutoplaySlider>
                             <Card.Body>
                                 <Card.Title>Bombeiro hidráulico</Card.Title>
                                 <Card.Text>
@@ -106,7 +199,53 @@ const Home = () => {
 
                     <div className="d-flex cardTop row focus-in-expand">
                         <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
-                        <Link to="/caca-vazamento" ><Card.Img variant="top" src={CacaVazamento} /></ Link>
+                            <AutoplaySlider
+                                play={true}
+                                cancelOnInteraction={false} // should stop playing on user interaction
+                                interval={6000}
+                            >
+
+                                <div>
+                                    <Link to="/caca-vazamento" >
+                                        <img className="card-image-desktop" src={CacaVazamento1} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/caca-vazamento" >
+                                        <img className="card-image-desktop" src={CacaVazamento2} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/caca-vazamento" >
+                                        <img className="card-image-desktop" src={CacaVazamento3} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/caca-vazamento" >
+                                        <img className="card-image-desktop" src={CacaVazamento4} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/caca-vazamento" >
+                                        <img className="card-image-desktop" src={CacaVazamento5} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/caca-vazamento" >
+                                        <img className="card-image-desktop" src={CacaVazamento6} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/caca-vazamento" >
+                                        <img className="card-image-desktop" src={CacaVazamento7} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/caca-vazamento" >
+                                        <img className="card-image-desktop" src={CacaVazamento8} />
+                                    </ Link>
+                                </div>
+                            </AutoplaySlider>
                             <Card.Body>
                                 <Card.Title>Caça vazamento</Card.Title>
                                 <Card.Text>
@@ -119,7 +258,43 @@ const Home = () => {
 
                     <div className="d-flex cardTop row focus-in-expand">
                         <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
-                        <Link to="/video-inspecao" ><Card.Img variant="top" src={VideoInspecao} /></Link>
+                            <AutoplaySlider
+                                play={true}
+                                cancelOnInteraction={false} // should stop playing on user interaction
+                                interval={6000}
+                            >
+
+                                <div>
+                                    <Link to="/video-inspecao" >
+                                        <img className="card-image-desktop" src={VideoInspecao1} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/video-inspecao" >
+                                        <img className="card-image-desktop" src={VideoInspecao2} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/video-inspecao" >
+                                        <img className="card-image-desktop" src={VideoInspecao3} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/video-inspecao" >
+                                        <img className="card-image-desktop" src={VideoInspecao4} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/video-inspecao" >
+                                        <img className="card-image-desktop" src={VideoInspecao5} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/video-inspecao" >
+                                        <img className="card-image-desktop" src={VideoInspecao6} />
+                                    </ Link>
+                                </div>
+                            </AutoplaySlider>
                             <Card.Body>
                                 <Card.Title>Vídeo inspeção</Card.Title>
                                 <Card.Text>
@@ -132,7 +307,28 @@ const Home = () => {
 
                     <div className="d-flex cardTop row focus-in-expand">
                         <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
-                        <Link to="/desentupimento" ><Card.Img variant="top" src={Desentupimento} /></Link>
+                            <AutoplaySlider
+                                play={true}
+                                cancelOnInteraction={false} // should stop playing on user interaction
+                                interval={6000}
+                            >
+
+                                <div>
+                                    <Link to="/desentupimento" >
+                                        <img className="card-image-desktop" src={Desentupimento1} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/desentupimento" >
+                                        <img className="card-image-desktop" src={Desentupimento2} />
+                                    </ Link>
+                                </div>
+                                <div>
+                                    <Link to="/desentupimento" >
+                                        <img className="card-image-desktop" src={Desentupimento3} />
+                                    </ Link>
+                                </div>
+                            </AutoplaySlider>
                             <Card.Body>
                                 <Card.Title>Desentupimento</Card.Title>
                                 <Card.Text>
@@ -180,7 +376,63 @@ const Home = () => {
                             <div className="card focus-in-expand">
                                 <div className="d-flex justify-content-center cardTop">
                                     <Card className="bg-dark text-white cardLeft" data-aos="fade-up" data-aos-duration="3000">
-                                    <Link to="/bombeiro-hidraulico" ><Card.Img variant="top" src={BombeiroHidrualico} /></Link>
+                                        <AutoplaySlider
+                                            play={true}
+                                            cancelOnInteraction={false} // should stop playing on user interaction
+                                            interval={6000}
+                                        >
+
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico1} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico2} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico3} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico4} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico5} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico6} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico7} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico8} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico9} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/bombeiro-hidraulico" >
+                                                    <img className="card-image-desktop" src={BombeiroHidraulico10} />
+                                                </ Link>
+                                            </div>
+                                        </AutoplaySlider>
                                         <Card.Body>
                                             <Card.Title>Bombeiro hidráulico</Card.Title>
                                             <Card.Text>
@@ -191,7 +443,53 @@ const Home = () => {
                                     </Card>
 
                                     <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
-                                    <Link to="/caca-vazamento" ><Card.Img variant="top" src={CacaVazamento} /></Link>
+                                        <AutoplaySlider
+                                            play={true}
+                                            cancelOnInteraction={false} // should stop playing on user interaction
+                                            interval={6000}
+                                        >
+
+                                            <div>
+                                                <Link to="/caca-vazamento" >
+                                                    <img className="card-image-desktop" src={CacaVazamento1} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/caca-vazamento" >
+                                                    <img className="card-image-desktop" src={CacaVazamento2} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/caca-vazamento" >
+                                                    <img className="card-image-desktop" src={CacaVazamento3} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/caca-vazamento" >
+                                                    <img className="card-image-desktop" src={CacaVazamento4} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/caca-vazamento" >
+                                                    <img className="card-image-desktop" src={CacaVazamento5} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/caca-vazamento" >
+                                                    <img className="card-image-desktop" src={CacaVazamento6} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/caca-vazamento" >
+                                                    <img className="card-image-desktop" src={CacaVazamento7} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/caca-vazamento" >
+                                                    <img className="card-image-desktop" src={CacaVazamento8} />
+                                                </ Link>
+                                            </div>
+                                        </AutoplaySlider>
                                         <Card.Body>
                                             <Card.Title>Caça vazamento</Card.Title>
                                             <Card.Text>
@@ -204,7 +502,43 @@ const Home = () => {
 
                                 <div className="d-flex justify-content-center">
                                     <Card className="bg-dark text-white cardLeft" data-aos="fade-up" data-aos-duration="3000">
-                                    <Link to="/video-inspecao" ><Card.Img variant="top" src={VideoInspecao} /></Link>
+                                        <AutoplaySlider
+                                            play={true}
+                                            cancelOnInteraction={false} // should stop playing on user interaction
+                                            interval={6000}
+                                        >
+
+                                            <div>
+                                                <Link to="/video-inspecao" >
+                                                    <img className="card-image-desktop" src={VideoInspecao1} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/video-inspecao" >
+                                                    <img className="card-image-desktop" src={VideoInspecao2} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/video-inspecao" >
+                                                    <img className="card-image-desktop" src={VideoInspecao3} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/video-inspecao" >
+                                                    <img className="card-image-desktop" src={VideoInspecao4} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/video-inspecao" >
+                                                    <img className="card-image-desktop" src={VideoInspecao5} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/video-inspecao" >
+                                                    <img className="card-image-desktop" src={VideoInspecao6} />
+                                                </ Link>
+                                            </div>
+                                        </AutoplaySlider>
                                         <Card.Body>
                                             <Card.Title>Vídeo inspeção</Card.Title>
                                             <Card.Text>
@@ -215,7 +549,28 @@ const Home = () => {
                                     </Card>
 
                                     <Card className="bg-dark text-white" data-aos="fade-up" data-aos-duration="3000">
-                                    <Link to="/desentupimento" ><Card.Img variant="top" src={Desentupimento} /></Link>
+                                        <AutoplaySlider
+                                            play={true}
+                                            cancelOnInteraction={false} // should stop playing on user interaction
+                                            interval={6000}
+                                        >
+
+                                            <div>
+                                                <Link to="/desentupimento" >
+                                                    <img className="card-image-desktop" src={Desentupimento1} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/desentupimento" >
+                                                    <img className="card-image-desktop" src={Desentupimento2} />
+                                                </ Link>
+                                            </div>
+                                            <div>
+                                                <Link to="/desentupimento" >
+                                                    <img className="card-image-desktop" src={Desentupimento3} />
+                                                </ Link>
+                                            </div>
+                                        </AutoplaySlider>
                                         <Card.Body>
                                             <Card.Title>Desentupimento</Card.Title>
                                             <Card.Text>
